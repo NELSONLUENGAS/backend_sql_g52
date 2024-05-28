@@ -1,0 +1,17 @@
+###
+GET http://127.0.0.1:3000/medicamentos?limits=5&order_by=id_ASC&page=1
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:3000/medicamentos/filtros?precio_max=2000&stock_min=4
+Content-Type: application/json
+
+
+### Traer personal
+GET http://127.0.0.1:3000/personal?limits=3&order_by=nombre_DESC&page=2
+Content-Type: application/json
+
+
+###
+GET http://127.0.0.1:3000/personal/filtros?salario_max=6500&salario_min=4000&rol=administrador
+Content-Type: application/json
