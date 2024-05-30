@@ -1,5 +1,5 @@
 ###
-GET http://127.0.0.1:3000/medicamentos?limits=5&order_by=id_ASC&page=1
+GET http://127.0.0.1:3000/medicamentos?limits=5&order_by=id_DESC&page=1
 Content-Type: application/json
 
 ###
